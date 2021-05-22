@@ -19,7 +19,7 @@ This repository is a basic setup to get started with a modified spade environmen
 - Update your code to import the logger using the statement `from stag_logger.Logger import WebLogger` then initialise the logger using the code: `WebLogger(mas_name="Counter BDI MAS", server="localhost", port=3700)`. This would post logs to the address `http://localhost:3700` which is the address/port that the transparency tool listens on. NOTE: This must be done before declaring the agents.
 - Run your project as you normally would.
 
-- A sample video demonstrating the setup is available here: 
+- A sample video demonstrating the setup is available here:  https://fahidrm.github.io/agent-transparency-tool/files/guides/agent_transparency_tool_with_spade.mp4
 
 
 
