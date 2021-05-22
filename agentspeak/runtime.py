@@ -977,6 +977,8 @@ def flatten_context(plan_context):
         all_context.extend(flatten_context(plan_context.right))
     elif type(plan_context) is NotQuery:
         all_context.append("not " + str(plan_context.query))
+    elif type(plan_context) is TrueQuery:
+        pass
     else:
         all_context.append(str(plan_context))
     return all_context
