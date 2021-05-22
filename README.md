@@ -1,4 +1,4 @@
-# Transparency Study using Spade & Spade BDI  [Base Repository]
+# Transparency Study using Spade & Spade BDI
 
 This repository is a basic setup to get started with a modified spade environment.
 
